@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Box from "./Box/Box.js";
-import styles from "./Styles/Styles.js";
+import Box from "./Box.js";
+import styles from "./Styles.js";
 
 const boxes = new Array(10).fill(null).map((v, i) => i + 1);
 
